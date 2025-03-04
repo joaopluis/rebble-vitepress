@@ -1,0 +1,15 @@
+{
+  "name": "rebble-vitepress",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
+  },
+  "author": "João Luís <joao@joaopluis.pt>",
+  "devDependencies": {
+    "sass": "^1.85.1",
+    "vitepress": "^1.6.3",
+    "vitepress-sidebar": "^1.31.0"
+  }
+}

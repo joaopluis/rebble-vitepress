@@ -1,0 +1,15 @@
+:root {
+    --vp-font-family-base: Lato, sans-serif;
+
+    --vp-c-brand-1: oklch(0.705 0.213 47.604);
+    --vp-c-brand-2: oklch(0.75 0.183 55.934);
+    --vp-c-brand-3: oklch(0.837 0.128 66.29);
+    --vp-c-brand-soft: oklch(0.705 0.213 47.604 / 0.15);
+}
+
+.dark {
+    --vp-c-brand-1: oklch(0.705 0.213 47.604);
+    --vp-c-brand-2: oklch(0.646 0.222 41.116);
+    --vp-c-brand-3: oklch(0.553 0.195 38.402);
+    --vp-c-brand-soft: oklch(0.705 0.213 47.604 / 0.15);
+}
