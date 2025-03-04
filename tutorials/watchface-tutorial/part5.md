@@ -41,7 +41,7 @@ The indicator itself will take the form of the following 'Bluetooth
 disconnected' icon that will be displayed when the watch is disconnected, and
 hidden when reconnected. Save the image below for use in this project:
 
-<img style="background-color: #CCCCCC;" src="./images/intermediate/bt-icon.png" />
+<img style="background-color: #CCCCCC;" src="/images/tutorials/watchface-tutorial/intermediate/bt-icon.png" />
 
 
 <SdkPlatform>
@@ -131,7 +131,7 @@ With this last feature in place, running the app and disconnecting the Bluetooth
 connection will cause the new indicator to appear, and the watch to vibrate
 twice.
 
-<PebbleScreenshot center src="./images/intermediate/bt.png" wrapper="steel-black" />
+<PebbleScreenshot center src="/images/tutorials/watchface-tutorial/intermediate/bt.png" wrapper="steel-black" />
 
 <SdkPlatform>
 <template #cloudpebble>

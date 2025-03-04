@@ -14,7 +14,7 @@ we'll be sure to add some exciting features for the user!
 When we are done this section of the tutorial, you should end up with a brand
 new basic watchface looking something like this:
 
-<ScreenshotViewer image="./images/1-time.png" :platforms='[{"hw": "aplite", "wrapper": "steel-black"}, {"hw": "basalt", "wrapper": "time-red"}, {"hw": "chalk", "wrapper": "time-round-rosegold-14"}]' />
+<ScreenshotViewer image="/images/tutorials/watchface-tutorial/1-time.png" :platforms='[{"hw": "aplite", "wrapper": "steel-black"}, {"hw": "basalt", "wrapper": "time-red"}, {"hw": "chalk", "wrapper": "time-round-rosegold-14"}]' />
 
 ## First Steps
 
@@ -269,7 +269,7 @@ Congratulations! You should see that you have a new item in the watchface menu,
 but it is entirely blank!
 
 <ScreenshotViewer
-  image="./images/1-blank.png"
+  image="/images/tutorials/watchface-tutorial/1-blank.png"
   :platforms='[
     {"hw": "aplite", "wrapper": "steel-black"},
     {"hw": "basalt", "wrapper": "time-red"},
@@ -375,7 +375,7 @@ should now see the following:
 </SdkPlatform>
 
 <ScreenshotViewer
-  image="./images/1-textlayer-test.png"
+  image="/images/tutorials/watchface-tutorial/1-textlayer-test.png"
   :platforms='[
     {"hw": "aplite", "wrapper": "steel-black"},
     {"hw": "basalt", "wrapper": "time-red"},
@@ -469,7 +469,7 @@ Re-compile and re-install the watchface on your Pebble, and it should look like
 this:
 
 <ScreenshotViewer 
-  image="./images/1-time.png" 
+  image="/images/tutorials/watchface-tutorial/1-time.png" 
   :platforms='[
     {"hw": "aplite", "wrapper": "steel-black"}, 
     {"hw": "basalt", "wrapper": "time-red"}, 

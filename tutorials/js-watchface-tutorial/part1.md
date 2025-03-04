@@ -23,7 +23,7 @@ JavaScript applications for Pebble smartwatches.
 We're going to start with some basics, then create a simple digital watchface
 and finally create an analog clock which looks just like this:
 
-<PebbleScreenshot src="./images/tictoc.png" wrapper="time-red" />
+<PebbleScreenshot src="/images/tutorials/js-watchface-tutorial/tictoc.png" wrapper="time-red" />
 
 ## First Steps
 
@@ -227,7 +227,7 @@ $ pebble install --logs --emulator basalt
 You should see a loading bar as the watchface is loaded, shortly followed by
 your watchface running in the emulator.
 
-<PebbleScreenshot src="./images/tutorials/js-watchface-tutorial/rocky-time.png" wrapper="time-red" />
+<PebbleScreenshot src="/images/tutorials/js-watchface-tutorial/rocky-time.png" wrapper="time-red" />
 
 Your logs should also be displaying the message we told it to log with
 `console.log()`.

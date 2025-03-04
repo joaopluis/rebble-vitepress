@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import { withBase } from "vitepress";
+
 defineProps<{
   wrapper: string;
   src: string;
@@ -8,7 +10,7 @@ defineProps<{
 </script>
 
 <template>
-<img :src="src" :class="['pebble-screenshot', `pebble-screenshot--${wrapper}`, {'pebble-screenshot--small': small}, {'pebble-screenshot--center': center}]" />
+<img :src="withBase(src)" :class="['pebble-screenshot', `pebble-screenshot--${wrapper}`, {'pebble-screenshot--small': small}, {'pebble-screenshot--center': center}]" />
 </template>
 
 <style scoped lang="scss">

@@ -24,7 +24,7 @@ be sure to replace these with your own to truly make it your own! Once we're
 done, you should end up with a watchface looking like this:
 
 <ScreenshotViewer 
-  image="./images/2-final.png" 
+  image="/images/tutorials/watchface-tutorial/2-final.png" 
   :platforms='[
     {"hw": "aplite", "wrapper": "steel-black"}, 
     {"hw": "basalt", "wrapper": "time-red"}, 
@@ -52,7 +52,7 @@ The result of the first part should look something like this - a basic time
 display:
 
 <ScreenshotViewer 
-  image="./images/1-time.png" 
+  image="/images/tutorials/watchface-tutorial/1-time.png" 
   :platforms='[
     {"hw": "aplite", "wrapper": "steel-black"}, 
     {"hw": "basalt", "wrapper": "time-red"}, 
@@ -153,7 +153,7 @@ the watchface should feature a much more interesting font.
 An example screenshot is shown below:
 
 <ScreenshotViewer
-  image="./images/2-custom-font.png"
+  image="/images/tutorials/watchface-tutorial/2-custom-font.png"
   :platforms='[
     {"hw": "aplite", "wrapper": "steel-black"},
     {"hw": "basalt", "wrapper": "time-red"},
@@ -200,7 +200,7 @@ object will have a `type` of `bitmap`. Below is an example:
 As before, here is an example bitmap we have created for you to use, which looks
 like this:
 
-[![background](./images/background.png "background")](./images/background.png)
+[![background](/images/tutorials/watchface-tutorial/background.png "background")](/images/tutorials/watchface-tutorial/background.png)
 
 Once this has been added to the project, return to your `.c` file and declare
 two more pointers, one each of ``GBitmap`` and ``BitmapLayer`` near the top of
@@ -256,7 +256,7 @@ your own font and bitmap (highly recommended!) then your watchface will not look
 exactly like this.
 
 <ScreenshotViewer
-  image="./images/2-final.png"
+  image="/images/tutorials/watchface-tutorial/2-final.png"
   :platforms='[
     {"hw": "aplite", "wrapper": "steel-black"},
     {"hw": "basalt", "wrapper": "time-red"},

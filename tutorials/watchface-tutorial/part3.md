@@ -25,7 +25,7 @@ By the end of this tutorial we will arrive at a watchface like the one below, in
 all its customized glory:
 
 <ScreenshotViewer
-  image="./images/3-final.png"
+  image="/images/tutorials/watchface-tutorial/3-final.png"
   :platforms='[
     {"hw": "aplite", "wrapper": "steel-black"},
     {"hw": "basalt", "wrapper": "time-red"},
@@ -134,7 +134,7 @@ fonts_unload_custom_font(s_weather_font);
 
 After compiling and installing, your watchface should look something like this:
 <ScreenshotViewer
-  image="./images/3-loading.png"
+  image="/images/tutorials/watchface-tutorial/3-loading.png"
   :platforms='[
     {"hw": "aplite", "wrapper": "steel-black"},
     {"hw": "basalt", "wrapper": "time-red"},

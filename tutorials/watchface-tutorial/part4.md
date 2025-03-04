@@ -127,11 +127,9 @@ With this new feature in place, the watchface will now display the watch's
 battery charge level in a minimalist fashion that integrates well with the
 existing design style.
 
-<PebbleScreenshot src="./images/intermediate/battery-level.png" wrapper="steel-black" />
+<PebbleScreenshot src="/images/tutorials/watchface-tutorial/intermediate/battery-level.png" wrapper="steel-black" />
 
 ## What's Next?
 
 In the next, and final, section of this tutorial, we'll use the Connection Service
 to notify the user when their Pebble smartwatch disconnects from their phone.
-
-[Go to Part 5 &rarr; >{wide,bg-dark-red,fg-white}](/tutorials/watchface-tutorial/part5/)

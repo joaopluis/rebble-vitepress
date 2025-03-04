@@ -17,7 +17,7 @@ at the process of creating a basic watchface using Pebble's new JavaScript API.
 In this tutorial, we'll extend the example to add weather conditions from the
 Internet to our watchface.
 
-<PebbleScreenshot src="./images/tictoc-weather.png" wrapper="time-red" />
+<PebbleScreenshot src="/images/tutorials/js-watchface-tutorial/tictoc-weather.png" wrapper="time-red" />
 
 We'll be using the JavaScript component `pkjs`, which runs on the user's mobile
 device using [PebbleKit JS](/docs/pebblekit-js). This `pkjs` component can be
