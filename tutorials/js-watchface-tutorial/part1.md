@@ -30,7 +30,7 @@ and finally create an analog clock which looks just like this:
 <SdkPlatform>
 <template #cloudpebble>
 
-Go to [CloudPebble]({{ $CLOUDPEBBLE_URL }}) and click
+Go to [CloudPebble]({{ $config.cloudpebbleUrl }}) and click
 'Get Started' to log in using your Pebble account, or create a new one if you do
 not already have one. Once you've logged in, click 'Create' to create a new
 project. Give your project a suitable name, such as 'Tutorial 1' and set the

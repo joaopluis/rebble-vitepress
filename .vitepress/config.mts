@@ -25,7 +25,7 @@ const vitePressConfigs: UserConfig<DefaultTheme.Config> = {
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/pebble-dev' },
-      { icon: 'discord', link: 'https://discordapp.com/invite/aRUAYFN' },
+      { icon: 'discord', link: 'https://rebble.io/discord' },
       { icon: 'twitter', link: 'https://twitter.com/pebble_dev' }
     ],
 
@@ -47,13 +47,24 @@ export default defineConfig(withSidebar(vitePressConfigs, [
     sortMenusByFrontmatterOrder: true,
   },
   {
-    scanStartPath: 'sdk',
-    basePath: '/sdk/',
-    resolvePath: '/sdk/',
+    scanStartPath: 'guides',
+    basePath: '/guides/',
+    resolvePath: '/guides/',
     useTitleFromFileHeading: true,
     useTitleFromFrontmatter: true,
     useFolderTitleFromIndexFile: true,
     sortMenusByFrontmatterOrder: true,
-    useFolderLinkFromSameNameSubFile: true
-  }
+    useFolderLinkFromIndexFile: true,
+  },
+  {
+    scanStartPath: 'documentation',
+    basePath: '/documentation/',
+    resolvePath: '/documentation/',
+    useTitleFromFileHeading: true,
+    useTitleFromFrontmatter: true,
+    useFolderTitleFromIndexFile: true,
+    sortMenusByFrontmatterOrder: true,
+    useFolderLinkFromIndexFile: true,
+    collapsed: true,
+  },
 ]))

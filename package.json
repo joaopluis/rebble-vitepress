@@ -8,6 +8,7 @@
   },
   "author": "João Luís <joao@joaopluis.pt>",
   "devDependencies": {
+    "fast-xml-parser": "^5.0.8",
     "sass": "^1.85.1",
     "vitepress": "^1.6.3",
     "vitepress-sidebar": "^1.31.0"

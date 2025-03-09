@@ -43,7 +43,7 @@ as a starting template. For reference, that should look
 <template #cloudpebble>
 
 You can create a new CloudPebble project from this template by
-[clicking here]({{ $CLOUDPEBBLE_URL }}ide/gist/9b9d50b990d742a3ae34).
+[clicking here]({{ $config.cloudpebbleUrl }}ide/gist/9b9d50b990d742a3ae34).
 
 </template>
 </SdkPlatform>
@@ -279,7 +279,7 @@ using the button below.
 <SdkPlatform>
 <template #cloudpebble>
 
-<RblButton theme="alt" text="Edit in CloudPebble" :href="`${$CLOUDPEBBLE_URL}ide/gist/d216d9e0b840ed296539`" />
+<RblButton theme="alt" text="Edit in CloudPebble" :href="`${$config.cloudpebbleUrl}ide/gist/d216d9e0b840ed296539`" />
 
 </template>
 <template #local>

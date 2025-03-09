@@ -136,7 +136,7 @@ twice.
 <SdkPlatform>
 <template #cloudpebble>
 
-<RblButton theme="alt" text="Edit in CloudPebble" :href="`${$CLOUDPEBBLE_URL}ide/gist/ddd15cbe8b0986fda407`" />
+<RblButton theme="alt" text="Edit in CloudPebble" :href="`${$config.cloudpebbleUrl}ide/gist/ddd15cbe8b0986fda407`" />
 
 </template>
 <template #local>

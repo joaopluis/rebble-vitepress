@@ -2,6 +2,8 @@ import DefaultTheme, {VPButton} from "vitepress/theme-without-fonts";
 import './custom.css'
 import {Theme} from "vitepress";
 
+import config from '../../config';
+
 export default {
     extends: DefaultTheme,
     enhanceApp({ app }) {
@@ -16,9 +18,7 @@ export default {
 
         app.component('RblButton', VPButton)
 
-        app.config.globalProperties.$CLOUDPEBBLE_URL = import.meta.env.VITE_CLOUDPEBBLE_URL
-        app.config.globalProperties.$PEBBLETOOL_ROOT = import.meta.env.VITE_PEBBLE_TOOL_ROOT
-        app.config.globalProperties.$PEBBLETOOL_VERSION = import.meta.env.VITE_PEBBLE_TOOL_VERSION
+        app.config.globalProperties.$config = config;
 
     }
 } satisfies Theme;
