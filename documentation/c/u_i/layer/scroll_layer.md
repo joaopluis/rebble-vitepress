@@ -1,6 +1,5 @@
 # ScrollLayer
 
-![scroll_layer.png](/documentation/c//scroll_layer.png)
 ### Key Points
 
 

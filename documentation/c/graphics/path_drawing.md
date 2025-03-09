@@ -1,6 +1,8 @@
 # Drawing Paths
 
-Code example: ```c
+Code example:
+
+```c
 
 static GPath *s_my_path_ptr = NULL;
 

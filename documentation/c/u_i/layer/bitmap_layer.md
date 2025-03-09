@@ -1,6 +1,5 @@
 # BitmapLayer
 
-![bitmap_layer.png](/documentation/c//bitmap_layer.png)
  BitmapLayer is a Layer subtype that draws a GBitmap within its frame. It uses an alignment property to specify how to position the bitmap image within its frame. Optionally, when the background color is not GColorClear, it draws a solid background color behind the bitmap image, filling areas of the frame that are not covered by the bitmap image. Lastly, using the compositing mode property of the BitmapLayer, determines the way the bitmap image is drawn on top of what is underneath it (either the background color, or the layers beneath it).
 
 

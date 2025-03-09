@@ -1,7 +1,5 @@
 # NumberWindow
 
-![number_window.png](/documentation/c//number_window.png)
-
 ## Functions
 
 :::info NumberWindow * number_window_create(const char *label, NumberWindowCallbacks callbacks, void *callback_context)

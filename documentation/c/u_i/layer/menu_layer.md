@@ -1,6 +1,5 @@
 # MenuLayer
 
-![menu_layer.png](/documentation/c//menu_layer.png)
 ### Key Points
 
 

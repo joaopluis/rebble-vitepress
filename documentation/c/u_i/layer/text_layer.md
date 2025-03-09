@@ -1,6 +1,5 @@
 # TextLayer
 
-![text_layer.png](/documentation/c//text_layer.png)
  The geometric information (bounds, frame) of the Layer is used as the "box" in which the text is drawn. The [TextLayer](/documentation/c/group___text_layer.md) also has a number of other properties that influence how the text is drawn. Most important of these properties are: a pointer to the string to draw itself, the font, the text color, the background color of the layer, the overflow mode and alignment of the text inside the layer. 
 
 ## Functions

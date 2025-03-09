@@ -1,7 +1,6 @@
 # ActionBarLayer
 
-![action_bar_layer.png](/documentation/c//action_bar_layer.png)
- ActionBarLayer is a Layer that displays a bar on the right edge of the window. The bar can contain up to 3 icons, each corresponding with one of the buttons on the right side of the watch. The purpose of each icon is to provide a hint (feed-forward) to what action a click on the respective button will cause.
+ActionBarLayer is a Layer that displays a bar on the right edge of the window. The bar can contain up to 3 icons, each corresponding with one of the buttons on the right side of the watch. The purpose of each icon is to provide a hint (feed-forward) to what action a click on the respective button will cause.
 
 The action bar is useful when there are a few (up to 3) main actions that are desirable to be able to take quickly, literally with one press of a button.
 

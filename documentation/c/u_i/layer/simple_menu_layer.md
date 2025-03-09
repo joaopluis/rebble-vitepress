@@ -1,7 +1,5 @@
 # SimpleMenuLayer
 
-![simple_menu_layer.png](/documentation/c//simple_menu_layer.png)
-
 ## Functions
 
 :::info SimpleMenuLayer * simple_menu_layer_create(GRect frame, Window *window, const SimpleMenuSection *sections, int32_t num_sections, void *callback_context)
